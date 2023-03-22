@@ -22,15 +22,22 @@
         <main>
 
             <div id="card-container" class="hidden">
-                <div class="form-container">
+                <div id="form-container">
+                    <button type="button" id="close-card-button">X</button>
+                    <h2>Provide book's info :)</h2>
                     <form action="" id="card">
-                        <button type="button">X</button>
-                        <label for=""></label>
+                        <label for="">Title</label>
                         <input type="text" name="" id="">
-                        <label for=""></label>
+                        <label for="">Author</label>
                         <input type="text" name="" id="">
-                        <label for=""></label>
-                        <input type="text" name="" id="">
+                        <label for="">Pages</label>
+                        <input type="number" name="" id="">
+                        <div id="read-selector">
+                            <label for="yes">Yes</label>
+                            <input type="radio" name="is-read" id="yes">
+                            <label for="no">No</label>
+                            <input type="radio" name="is-read" id="no">
+                        </div>
                     </form>
                 </div>
             </div>
