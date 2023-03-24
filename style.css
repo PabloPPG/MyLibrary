@@ -35,11 +35,27 @@ footer {
   position: fixed;
   bottom: 0;
 }
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 
 /* -------------------------------------------------------- */
 /* IDS */
 /* -------------------------------------------------------- */
-#add-book-button {
+#open-card-button {
   margin: 5rem 10rem;
   position: fixed;
   bottom: 0;
